@@ -1,0 +1,101 @@
+*{
+    text-decoration: none;
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    
+    background-color: rgb(195, 227, 240);
+}
+#wendylogo{
+    width: 70px;
+}
+#carrito1{
+    width: 60px;
+    padding-left: 200px;
+}
+header {
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    top: 0px;
+    display: flex;
+    
+    align-items: center;
+    font-family: serif;
+    font-weight: bold;
+    font-size: 17px;
+    z-index: 1000;
+
+    background-color: rgb(110, 165, 209);
+
+ }   
+ .navbar, .navbar-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 40px;
+   
+ }
+
+
+ .navbar-list{
+    gap: 150px;
+    cursor: pointer;
+    padding-left: 130px;
+    
+  
+ }
+ a{
+    color: rgb(239, 250, 255);
+ }
+#primerh1{
+    padding-top: 200px;
+    padding-left: 40px;
+}
+.parrafos{
+   padding-top: 20px;
+   padding-left: 30px;
+   width: 400px;
+  
+}
+.boton{
+    border: 2px solid rgb(132, 168, 223);
+    background-color: rgba(86, 147, 197, 0.753);
+ left: 30px;
+ top: 10px;
+ position: relative;
+ display: inline;
+}
+#novedades{
+    top: 195px;
+    left: 20px;
+    position: relative;
+    font-size: small;
+    color: rgb(118, 146, 151);
+}
+#lw-portada{
+     width: 310px;
+     position:relative;
+     left: 470px;
+     bottom: 250px;
+}
+main{
+    padding-left: 100px;
+    position: relative
+}
+#album-info{
+    width: 260px;
+    position: relative;
+    left: 789px;
+   bottom: 668px;
+}
+#photocards{
+    width: 260px;
+    position: relative;
+    left: 789px;
+    bottom: 668px;
+}
